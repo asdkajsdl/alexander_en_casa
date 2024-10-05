@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.producto-imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto-nombre {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.producto-descripcion {
+    font-size: 16px;
+    color: #555;
+}
+
+.producto-precio {
+    font-size: 20px;
+    color: #28a745;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
